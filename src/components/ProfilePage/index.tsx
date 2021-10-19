@@ -1,4 +1,5 @@
 import React from 'react';
+import Feed from '../Feed';
 
 import { 
   Container,
@@ -18,7 +19,7 @@ const ProfilePage: React.FC = () => {
         <Avatar />
       </Banner>
       <ProfileData>
-        <EditButton outlined>Editar perfil</EditButton>
+        <EditButton outlined>Editar Perfil</EditButton>
         <h1>Diego Barata</h1>
         <h2>@diegobarata_</h2>
 
@@ -40,10 +41,11 @@ const ProfilePage: React.FC = () => {
             seguindo <strong>???</strong>
           </span>
           <span>
-            <strong>??? </strong> seguidores
+            <strong>1000000 </strong> seguidores
           </span>
         </Followage>
       </ProfileData>
+      <Feed/>
     </Container>
   )
 }
