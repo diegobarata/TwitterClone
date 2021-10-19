@@ -28,7 +28,13 @@ const Tweet: React.FC = () => {
       </Retweeted>
 
       <Body>
-        <Avatar />
+        <Avatar>
+          <img
+            src="https://pbs.twimg.com/profile_images/1419763775041851392/xCCIQkZX_400x400.jpg"
+            alt="Avatar"
+            className="profile-picture"
+          />
+        </Avatar>
 
         <Content>
           <Header>
@@ -38,8 +44,14 @@ const Tweet: React.FC = () => {
             <time> 16 de outubro</time>
           </Header>
 
-          <Description>Loren ipsun</Description>
-          <ImageContent/>
+          <Description>😍😍😍</Description>
+          <ImageContent>
+            <img
+              src="https://pbs.twimg.com/media/FBbg06FWYAAxhe0?format=jpg&name=large"
+              alt="Avatar"
+              className="TweetImage"
+            />
+          </ImageContent>
           
           <Icons>
             <Status>

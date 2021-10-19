@@ -17,25 +17,25 @@ export const Container = styled.div`
 `;
 export const Banner = styled.div`
   flex-shrink: 0;
-
-  width: 100%;
-  height: min(33vw, 199px);
-
-  background: var(--twitter);
-
   position: relative;
+  
+  .banner{
+    width: 100%;
+    height: min(33vw, 199px);
+
+  }
 `;
 export const Avatar = styled.div`
-  width: max(45px, min(135px,22vw));
-  height: max(45px, min(135px,22vw));
-
-  border: 3 75px solid var(--primary);
-  background: var(--gray);
-  border-radius: 50%;
-
-  position: absolute;
-  bottom: max(-60px, -10vw);
-  left: 15px;
+  .profile-picture {
+    position: absolute;
+    width: max(45px, min(135px,22vw));
+    height: max(45px, min(135px,22vw));
+    border-radius: 100%;
+    bottom: max(-60px, -10vw);
+    left: 15px;
+    display: flex;
+    margin: 1px auto 12px;
+  }
 
 `;
 export const ProfileData = styled.div`

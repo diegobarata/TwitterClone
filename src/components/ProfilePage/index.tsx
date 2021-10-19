@@ -16,7 +16,18 @@ const ProfilePage: React.FC = () => {
   return (
     <Container>
       <Banner>
-        <Avatar />
+        <img
+            src="https://pbs.twimg.com/profile_banners/882008711560126464/1634608249/1500x500"
+            alt="Avatar"
+            className="banner"
+          />
+        <Avatar>
+          <img
+            src="https://pbs.twimg.com/profile_images/1419763775041851392/xCCIQkZX_400x400.jpg"
+            alt="Avatar"
+            className="profile-picture"
+          />
+        </Avatar>
       </Banner>
       <ProfileData>
         <EditButton outlined>Editar Perfil</EditButton>
@@ -24,7 +35,7 @@ const ProfilePage: React.FC = () => {
         <h2>@diegobarata_</h2>
 
         <p>
-          developer at <a href="https://www.instagram.com/diegobarata_/">@diegobarata_</a>
+          developer: <a href="https://www.instagram.com/diegobarata_/">@diegobarata_</a>
         </p>
         <ul>
           <li>
@@ -38,10 +49,10 @@ const ProfilePage: React.FC = () => {
         </ul>
         <Followage>
           <span>
-            seguindo <strong>???</strong>
+            seguindo <strong>393</strong>
           </span>
           <span>
-            <strong>1000000 </strong> seguidores
+            <strong>400</strong> seguidores
           </span>
         </Followage>
       </ProfileData>
