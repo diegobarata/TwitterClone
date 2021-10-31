@@ -30,7 +30,7 @@ const Tweet: React.FC = () => {
       <Body>
         <Avatar>
           <img
-            src="https://pbs.twimg.com/profile_images/1419763775041851392/xCCIQkZX_400x400.jpg"
+            src="https://pbs.twimg.com/media/FC_oNfdXIAEDNRZ?format=jpg&name=large"
             alt="Avatar"
             className="profile-picture"
           />
@@ -38,8 +38,8 @@ const Tweet: React.FC = () => {
 
         <Content>
           <Header>
-            <strong>Diego Barata</strong>
-            <span>@diegobarata_</span>
+            <strong>Nina</strong>
+            <span>@ninagatinha123</span>
             <Dot />
             <time> 16 de outubro</time>
           </Header>
@@ -47,7 +47,7 @@ const Tweet: React.FC = () => {
           <Description>😍😍😍</Description>
           <ImageContent>
             <img
-              src="https://pbs.twimg.com/media/FBbg06FWYAAxhe0?format=jpg&name=large"
+              src="https://pbs.twimg.com/media/FC_nfRpWEAE6R34?format=jpg&name=large"
               alt="Avatar"
               className="TweetImage"
             />

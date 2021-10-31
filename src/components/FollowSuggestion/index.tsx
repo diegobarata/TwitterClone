@@ -13,7 +13,7 @@ const FollowSuggestion: React.FC<Props> = ({ name, nickname }) => {
       <div>
         <Avatar>
           <img
-            src="https://pbs.twimg.com/profile_images/1411772933417193474/hT9RrohY_400x400.jpg"
+            src="https://pbs.twimg.com/media/FC_qr2CX0AAGVjQ?format=jpg&name=large"
             alt="Avatar"
             className="FollowAvatar"
           />

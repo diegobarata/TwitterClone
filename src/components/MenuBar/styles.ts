@@ -1,5 +1,6 @@
 import styled, { css } from 'styled-components';
 import { Twitter } from 'styled-icons/boxicons-logos';
+import { Github } from 'styled-icons/boxicons-logos';
 
 import {
   Home,
@@ -34,7 +35,7 @@ export const Topside = styled.div`
   }
 `;
 
-export const Logo = styled(Twitter)`
+export const Logo = styled(Github)`
   width: 41px;
   height: 41px;
   > path {

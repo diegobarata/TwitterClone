@@ -1,7 +1,7 @@
 import React from 'react';
 
-import PagesRoot from './Root';
+import Routes from './routes';
 
-const App = () => <PagesRoot />;
+const App = () => <Routes />;
 
 export default App;

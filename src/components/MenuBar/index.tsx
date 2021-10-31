@@ -57,15 +57,15 @@ const MenuBar: React.FC = () => {
       <Botside>
         <Avatar>
           <img
-            src="https://pbs.twimg.com/profile_images/1419763775041851392/xCCIQkZX_400x400.jpg"
+            src="https://pbs.twimg.com/media/FC_pHpqXIAAu90D?format=jpg&name=large"
             alt="Avatar"
             className="FollowAvatar"
           />
         </Avatar>
 
         <ProfileData>
-          <strong>Diego Barata</strong>
-          <span>@Diegobarata_</span>
+          <strong>Mai Cabeça</strong>
+          <span>@maicabeça</span>
         </ProfileData>
 
         <ExitIcon />
