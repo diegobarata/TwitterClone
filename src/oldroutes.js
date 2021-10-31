@@ -2,9 +2,9 @@ import React from "react";
 import { isAuthenticated } from "./auth";
 
 import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
-import LoginScreen from "./components/LoginScreen";
 import Layout from "./components/Layout";
 import GlobalStyles from "./styles/GlobalStyles";
+import LoginScreen from "./components/LoginScreen";
 
 const PrivateRoute = ({ component: Component, ...rest }) => (
   <Route

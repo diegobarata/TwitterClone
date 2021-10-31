@@ -1,9 +1,7 @@
 import React from 'react';
 
-import GlobalStyles from './styles/GlobalStyles';
-import Layout from './components/Layout';
-import Routes from "./routes";
+import PagesRoot from './Root';
 
-const App = () => <Routes />;
+const App = () => <PagesRoot />;
 
 export default App;
