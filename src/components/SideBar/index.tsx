@@ -27,17 +27,20 @@ const SideBar: React.FC = () => {
             title="Talvez você curta"
             elements={[
               <FollowSuggestion
-              name="Miaw1"
-              nickname="@Miaw1"
+              name="Eduardo"
+              nickname="@eduback"
+              image="https://cdn-icons-png.flaticon.com/512/147/147144.png"
               />,
               <FollowSuggestion
-               name="Miaw2" 
-               nickname="@Miaw2" 
+              name="Maria"
+              nickname="@mariaUX"
+              image="https://cdn-icons-png.flaticon.com/512/194/194938.png"
+              />,
+               <FollowSuggestion
+               name="João"
+               nickname="@joao_reidofront"
+               image="https://cdn.icon-icons.com/icons2/2643/PNG/512/male_man_boy_black_tone_people_person_avatar_icon_159356.png"
                />,
-              <FollowSuggestion
-                name="Miaw3"
-                nickname="@Miaw3"
-              />,
             ]}
           />
           <List

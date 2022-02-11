@@ -6,7 +6,7 @@ const News: React.FC = () => {
   return (
     <Container>
       <span>Assuntos do momento no Brasil</span>
-      <strong>Fora Bolsonaro</strong>
+      <strong>Frontend é mais divertido que o Back</strong>
     </Container>
   );
 };

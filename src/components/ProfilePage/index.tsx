@@ -23,7 +23,7 @@ const ProfilePage: React.FC = () => {
           />
         <Avatar>
           <img
-            src="https://pbs.twimg.com/media/FC_pHpqXIAAu90D?format=jpg&name=large"
+            src="https://pbs.twimg.com/profile_images/1492197673159512072/Yg45a5-V_400x400.jpg"
             alt="Avatar"
             className="profile-picture"
           />
@@ -31,11 +31,11 @@ const ProfilePage: React.FC = () => {
       </Banner>
       <ProfileData>
         <EditButton outlined>Editar Perfil</EditButton>
-        <h1>Mai Cabeça</h1>
-        <h2>@maicabeça</h2>
+        <h1>Diego Barata de Oliveira</h1>
+        <h2>@diegobarata_</h2>
 
         <p>
-          developer: <a href="https://twitter.com/testettk2021">@InstaCatGrup</a>
+          developer: <a href="https://twitter.com/testettk2021">@diegobarata_</a>
         </p>
         <ul>
           <li>
@@ -44,7 +44,7 @@ const ProfilePage: React.FC = () => {
           </li>
           <li>
             <CakeIcon />
-            Nascido(a) em 04 de abril de 2020
+            Nascido(a) em 01 de abril de 2003
           </li>
         </ul>
         <Followage>

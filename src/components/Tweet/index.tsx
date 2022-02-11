@@ -30,7 +30,7 @@ const Tweet: React.FC = () => {
       <Body>
         <Avatar>
           <img
-            src="https://pbs.twimg.com/media/FC_oNfdXIAEDNRZ?format=jpg&name=large"
+            src="https://www.significadodossonhos.inf.br/wp-content/uploads/2019/07/Sonhar-com-gato-amarelo3.jpg"
             alt="Avatar"
             className="profile-picture"
           />
@@ -47,7 +47,7 @@ const Tweet: React.FC = () => {
           <Description>😍😍😍</Description>
           <ImageContent>
             <img
-              src="https://pbs.twimg.com/media/FC_nfRpWEAE6R34?format=jpg&name=large"
+              src="https://media.moneytimes.com.br/uploads/2020/06/gatinho-computador.jpg"
               alt="Avatar"
               className="TweetImage"
             />

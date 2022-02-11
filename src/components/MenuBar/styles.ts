@@ -35,7 +35,7 @@ export const Topside = styled.div`
   }
 `;
 
-export const Logo = styled(Github)`
+export const Logo = styled(Twitter)`
   width: 41px;
   height: 41px;
   > path {
